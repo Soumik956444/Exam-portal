@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyright/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Frontend build
+frontend/dist/
+frontend/.vite/
+
+# Backend generated files
+backend/__pycache__/
+backend/.pytest_cache/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+
+# OS
+Thumbs.db

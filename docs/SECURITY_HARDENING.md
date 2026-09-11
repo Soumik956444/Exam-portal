@@ -1,0 +1,21 @@
+# Security Hardening Checklist
+
+- [ ] HTTPS only in production
+- [ ] Strong random JWT secret in a secret manager
+- [ ] PostgreSQL instead of SQLite
+- [ ] Exact frontend origin in CORS
+- [ ] Rate limiting on login, re-auth and violation endpoints
+- [ ] MFA/passkeys for high-assurance deployments
+- [ ] Password reset and email verification
+- [ ] Private object storage for rough work
+- [ ] Malware scanning for uploads
+- [ ] Content Security Policy and security headers
+- [ ] Server-side authoritative timer and score
+- [ ] Prevent duplicate submissions with transactional state checks
+- [ ] Audit logs with restricted access
+- [ ] Database backups and restore drills
+- [ ] Dependency vulnerability scanning
+- [ ] Penetration testing
+- [ ] Load testing
+- [ ] Privacy notice, consent and retention policy
+- [ ] Student review/appeal workflow for proctoring flags
