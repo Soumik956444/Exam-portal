@@ -1,0 +1,9 @@
+{
+  "name": "secure-exam-portal-backend",
+  "version": "1.0.0",
+  "description": "FastAPI backend for Secure Exam Portal",
+  "scripts": {
+    "start": "uvicorn app.main:app --reload --port 8001",
+    "dev": "uvicorn app.main:app --reload --port 8001"
+  }
+}

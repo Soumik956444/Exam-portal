@@ -37,7 +37,10 @@ pip install -r requirements.txt
 cp .env.example .env
 python seed.py
 uvicorn app.main:app --reload --port 8001
+npm start
 ```
+
+
 
 ### Frontend
 ```bash
